@@ -1,0 +1,188 @@
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:700&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Roboto+Slab&display=swap');
+html::-webkit-scrollbar {
+    display: none;
+}
+
+html {
+    -ms-overflow-style: none;
+}
+
+body {
+    position: relative;
+    background: #333;
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+}
+
+.title {
+    color: #eee;
+    font-family: 'Roboto Slab', serif;
+    margin: 0;
+    margin-bottom: 40px;
+}
+
+.logo-WP {
+    color: white;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 37px;
+}
+
+.logo-WP-red {
+    color: #111;
+}
+
+.wolf-pack-pink {
+    background: #E14658;
+}
+
+.wolf-pack-pink-text {
+    color: #E14658;
+}
+
+.page-footer {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    left: 0;
+}
+
+@media only screen and (max-width: 600px) {
+    .page-footer {
+        position: static;
+        bottom: 0;
+        right: 0;
+        left: 0;
+        -webkit-box-shadow: 0 8px 17px 2px rgba(0, 0, 0, 0.14), 0 3px 14px 2px rgba(0, 0, 0, 0.12), 0 5px 5px -3px rgba(0, 0, 0, 0.2);
+        box-shadow: 0 8px 17px 2px rgba(0, 0, 0, 0.14), 0 3px 14px 2px rgba(0, 0, 0, 0.12), 0 5px 5px -3px rgba(0, 0, 0, 0.2);
+    }
+}
+
+.btn-rounded {
+    border-radius: 5px;
+}
+
+.btn .wolf-pack-pink {
+    background: rgb(170, 55, 68);
+}
+
+.remove-shadows {
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+
+.email {
+    font-weight: 500;
+}
+
+span {
+    color: #333333;
+    padding-left: 10px;
+}
+
+.feedback-title {
+    font-weight: 400;
+}
+
+.brand-logo>img {
+    height: auto;
+    width: auto;
+}
+
+.tlp {
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+}
+
+.btn-rounded-10 {
+    border-radius: 10px;
+}
+
+.btn-important {
+    height: auto;
+    width: auto;
+    background-color: #eee;
+    font-weight: 900;
+    padding: 0;
+    color: #222222;
+    margin: 14px auto;
+}
+
+.btn-important:hover {
+    background-color: #ccc;
+    color: #eee;
+}
+
+.btn-important>span {
+    font-size: 16px;
+    font-family: 'Roboto Slab', serif;
+    margin: 0;
+    padding: 15px 30px;
+}
+
+.card-content>img {
+    max-width: 100%;
+    height: auto;
+    margin: 0;
+    padding: 12px;
+    max-height: 300px;
+}
+
+.card-content {
+    height: 365px;
+}
+
+.card-title {
+    font-family: 'Roboto Slab', serif;
+    text-align: center;
+    margin: 0;
+    padding-left: 0;
+}
+
+#team {
+    margin-bottom: 200px;
+}
+
+.card-title-Important {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 32px !important;
+    color: #333;
+    padding: 12px;
+    height: 120px;
+}
+
+.card-action {
+    height: 125px;
+    font-size: 16px;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+}
+
+.asign {
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.nossa-equipe-p {
+    font-size: 18px;
+    font-weight: 300;
+    padding-top: 50%;
+}
+
+.card-title {
+    height: 58px;
+}
+
+#news {
+    margin-bottom: 200px;
+}
+
+blockquote>.date {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    margin: 0 2px;
+    padding: 0;
+}

@@ -1,0 +1,33 @@
+* {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: sans-serif;
+}
+
+.gallery {
+    background: #333;
+}
+
+.gallery-cell {
+    min-width: 300px;
+    min-height: 200px;
+    width: 45vw;
+    height: 28vw;
+    max-width: 650px;
+    max-height: 400px;
+    margin-right: 10px;
+    background: #111111;
+}
+
+.rounded-carousel {
+    border-radius: 15px;
+}
+
+.gallery-cell > img {
+    height: 100%;
+    border-radius: 15px;
+    width: 100%;
+}
